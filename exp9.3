@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="2018BTECS00027_6A_PS1.css">
+	<title>Feedback Form</title>
+	<style>
+		.tab{
+    border: 10px;
+    float: left;
+	width: max-content;
+}
+	</style>
+</head>
+<body>
+	<div class="container" style="text-align: center;">
+  		<img src="https://tse1.mm.bing.net/th?id=OIP.YeKsGwT-aQJ7ptRsMpF8JwHaD8&pid=Api&P=0&w=307&h=164" alt="WCE">
+  		<button class="btn">WCE</button>
+	</div>
+	<h2 style="text-align: center;">Feedback Form</h2>
+	<h3 style="text-align: center;">Programming Laboratory 3 (4CS354)</h3>
+	<h4>Personal Information:</h4>
+	<form autocomplete="on">
+		<table class="tab">
+			<tr>
+			<td><label for="name">Enter Name:</label></td>
+			<td><input type="text" id="name" name="name" size="30" placeholder="Name"><br></td>
+			</tr>
+			<tr>
+			<tr>
+				<td><label for="year">Year of study:</label></td>
+  				<td><select id="year" name="year"  >
+  				<option value="" disabled selected hidden>Select year</option>
+    			<option value="fy">First Year</option>
+    			<option value="sy">Second Year</option>
+    			<option value="ty">Third Year</option>
+    			<option value="ly">Last Year</option>
+  				</select></td>
+			</tr>
+			<td><label for="prn">Enter PRN:</label></td>
+			<td><input type="text" id="prn" name="prn" size="30" placeholder="PRN"><br></td>
+			</tr>
+			<tr>
+			<td><label for="pass">Enter password:</label></td>
+			<td><input type="password" id="pass" name="pass" size="30" placeholder="password"><br></td>
+			</tr>
+			<tr>
+			<td><label for="mail">Enter Email-ID:</label></td>
+			<td><input type="email" id="mail" name="mail" size="30" placeholder="email"><br></td>
+			</tr>
+			<tr>
+			<td><label for="gender">Gender:</label></td>
+			<td>
+				<input type="radio" id="male" name="gender" value="male">
+  				<label for="male">Male</label>
+  				<input type="radio" id="female" name="gender" value="female">
+  				<label for="female">Female</label>
+  				<input type="radio" id="other" name="gender" value="other">
+  				<label for="other">Other</label>
+			</td>
+			</tr>
+			<tr>
+			<td><label for="c_id">Attach college ID:</label></td>
+			<td><input type="file" id="c_id" name="c_id" size="30"><br></td>
+			</tr>
+		</table>	
+    </form>
+    <h4>Give your valuable feedback...</h4>
+    <form autocomplete="on">
+    	<table>
+    		<tr>
+    			<th>No.</th>
+    			<th>Question</th>
+    			<th>Feedback</th>
+    		</tr>
+    		<tr>
+    			<td width="5%">1.</td>
+    			<td width="50%">
+    				<label for="q1">The content, references to good references (IS codes/Videos), and lesson/ISE plan were adequately explained by the teacher prior to starting the course.</label>
+    			</td>
+    			<td width="45%">
+    				<input type="radio" id="1" name="q1" value="stronglyagree">
+  					<label for="stronglyagree">Strongly agree</label>
+  					<input type="radio" id="2" name="q1" value="agree">
+  					<label for="agree">Agree</label>
+  					<input type="radio" id="3" name="q1" value="disagree">
+  					<label for="disagree">Disagree</label>
+  					<input type="radio" id="4" name="q1" value="stronglydisagree">
+  					<label for="stronglydisagree">Strongly Disagree</label>
+    			</td>
+    		</tr>
+    		<tr>
+    			<td width="5%">2.</td>
+    			<td width="50%">
+    				<label for="q2">The course outcomes and their relevance to programme outcomes were clearly explained.</label>
+    			</td>
+    			<td width="45%">
+    				<input type="radio" id="1" name="q2" value="stronglyagree">
+  					<label for="stronglyagree">Strongly agree</label>
+  					<input type="radio" id="2" name="q2" value="agree">
+  					<label for="agree">Agree</label>
+  					<input type="radio" id="3" name="q2" value="disagree">
+  					<label for="disagree">Disagree</label>
+  					<input type="radio" id="4" name="q2" value="stronglydisagree">
+  					<label for="stronglydisagree">Strongly Disagree</label>
+    			</td>
+    		</tr>
+    		<tr>
+    			<td width="5%">3.</td>
+    			<td width="50%">
+    				<label for="q3">The teacher conducted the laboratory sessions regularly.</label>
+    			</td>
+    			<td width="45%">
+    				<input type="radio" id="1" name="q3" value="stronglyagree">
+  					<label for="stronglyagree">Strongly agree</label>
+  					<input type="radio" id="2" name="q3" value="agree">
+  					<label for="agree">Agree</label>
+  					<input type="radio" id="3" name="q3" value="disagree">
+  					<label for="disagree">Disagree</label>
+  					<input type="radio" id="4" name="q3" value="stronglydisagree">
+  					<label for="stronglydisagree">Strongly Disagree</label>
+    			</td>
+    		</tr>
+    		<tr>
+    			<td width="5%">4.</td>
+    			<td width="50%">
+    				<label for="q4">The teacher was prompt in replying your queries and clarified your doubts within/outside the classroom.</label>
+    			</td>
+    			<td width="45%">
+    				<input type="radio" id="1" name="q4" value="stronglyagree">
+  					<label for="stronglyagree">Strongly agree</label>
+  					<input type="radio" id="2" name="q4" value="agree">
+  					<label for="agree">Agree</label>
+  					<input type="radio" id="3" name="q4" value="disagree">
+  					<label for="disagree">Disagree</label>
+  					<input type="radio" id="4" name="q4" value="stronglydisagree">
+  					<label for="stronglydisagree">Strongly Disagree</label>
+    			</td>
+    		</tr>
+    		<tr>
+    			<td width="5%">5.</td>
+    			<td width="50%">
+    				<label for="q5">The laboratory ambience and discipline was maintained by the teacher during the course.</label>
+    			</td>
+    			<td width="45%">
+    				<input type="radio" id="1" name="q5" value="stronglyagree">
+  					<label for="stronglyagree">Strongly agree</label>
+  					<input type="radio" id="2" name="q5" value="agree">
+  					<label for="agree">Agree</label>
+  					<input type="radio" id="3" name="q5" value="disagree">
+  					<label for="disagree">Disagree</label>
+  					<input type="radio" id="4" name="q5" value="stronglydisagree">
+  					<label for="stronglydisagree">Strongly Disagree</label>
+    			</td>
+    		</tr>
+    		<tr>
+    			<td width="5%">6.</td>
+    			<td width="50%">
+    				<label for="q6">How do you evaluate the overall performance of the course teacher?</label>
+    			</td>
+    			<td width="45%">
+    				<input type="radio" id="1" name="q6" value="stronglyagree">
+  					<label for="stronglyagree">Strongly agree</label>
+  					<input type="radio" id="2" name="q6" value="agree">
+  					<label for="agree">Agree</label>
+  					<input type="radio" id="3" name="q6" value="disagree">
+  					<label for="disagree">Disagree</label>
+  					<input type="radio" id="4" name="q6" value="stronglydisagree">
+  					<label for="stronglydisagree">Strongly Disagree</label>
+    			</td>
+    		</tr>
+    		<tr>
+    			<td width="5%">7.</td>
+    			<td width="50%">
+    				<label for="q7">As per the conduct of the course rate your satisfaction level for Course Outcomes.</label>
+    			</td>
+    			<td width="45%">
+    				<input type="radio" id="1" name="q7" value="stronglyagree">
+  					<label for="stronglyagree">Strongly agree</label>
+  					<input type="radio" id="2" name="q7" value="agree">
+  					<label for="agree">Agree</label>
+  					<input type="radio" id="3" name="q7" value="disagree">
+  					<label for="disagree">Disagree</label>
+  					<input type="radio" id="4" name="q7" value="stronglydisagree">
+  					<label for="stronglydisagree">Strongly Disagree</label>
+    			</td>
+    		</tr>
+    		<tr>
+    			<td width="5%">8.</td>
+    			<td width="50%">
+    				<label for="q8">Mode of teaching used by teacher.</label>
+    			</td>
+    			<td>
+    				<input type="checkbox" id="1" name="1" value="1">
+  					<label for="1"> Chalk-Board</label>
+					  <input type="checkbox" id="2" name="2" value="2">
+					  <label for="2">PPT Presentation</label>
+					  <input type="checkbox" id="3" name="3" value="3">
+					  <label for="3"> Oral</label>
+    			</td>
+    		</tr>
+    		<tr>
+    			<td width="5%">9.</td>
+    			<td width="50%">
+    				<label for="q9">Additional Suggestions/ Comments about the course teacher.</label>
+    			</td>
+    			<td>
+    				<textarea name="message" rows="10" cols="80" placeholder="Enter here..."></textarea>
+    			</td>
+    		</tr>
+    	</table>
+    	<table width="100%">
+    		<tr>
+    			<td width="50%" style="text-align: right;"><button type="submit" name="Submit"  onclick="alert('Thanks for your valuable feedback...')">Submit</button></td>
+    			<td  width="50%" style="text-align: left;"><input type="reset" name="reset"  onclick="alert('Form reseted successfully...')"></td>
+    		</tr>
+    	</table>
+    </form>
+</body>
+</html>
