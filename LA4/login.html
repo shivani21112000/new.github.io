@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Page</title>
+	<style>
+		body{
+			background-image: url(back1.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+	</style>
+</head>
+<body>
+	<h1 style="text-align: center;">Login Here...</h1>
+	<h3 style="text-align: center;">And Book Your Appointment...</h3>
+	<form autocomplete="on">
+		<table>
+			<tr>
+			<td><label for="name">Enter Name:</label></td>
+			<td><input type="text" id="name" name="name" size="30" placeholder="Name"><br></td>
+			</tr>
+			<tr>
+			<td><label for="user">Enter Username:</label></td>
+			<td><input type="text" id="user" name="user" size="30" placeholder="Username"><br></td>
+			</tr>
+			<tr>
+			<td><label for="pass">Enter password:</label></td>
+			<td><input type="password" id="pass" name="pass" size="30" placeholder="password"><br></td>
+			</tr>
+			<tr>
+				<td><label for="datetime">Enter Desired Date and Time:</label></td>
+				<td><input type="datetime-local" id="datetime" name="datetime"  placeholder="Date and Time"><br></td>
+			</tr>
+			<tr>
+				<td>
+				<label for="id">Enter Doctor's Name:  </label>
+					  <select id="id" name="id" required="on" >
+					  <option value="" disabled selected hidden>Select Doctor</option>
+					<option value="dr1">Dr. A.M. Sharma</option>
+					<option value="dr2">Dr. S.S. Ghongde</option>
+					<option value="dr3">Dr. A.V.Mehta</option>
+					<option value="dr4">Dr. S.S.Bendre</option>
+					  </select>
+				  </td>
+				
+			</tr>
+			<tr>
+				<td><label for="pur">Enter Purpose:</label></td>
+				<td><input type="text" id="pur" name="pur" size="30" placeholder="Purpose"><br></td>
+				</tr>
+		</table>	
+	</form>
+	<p style="text-align: center;">
+		<button type="submit" name="Login"  onclick="alert('Appointment Booked Successfully')">Login</button><br>
+		Not Registered Yet?? <br>
+		<button type="button" onclick="window.location.href='register.html'">Register Here</button><br>
+		Return to Home<br>
+		<button type="button" onclick="window.location.href='index.html'">Login Here</button><br>
+
+	</p>
+</body>
+</html>

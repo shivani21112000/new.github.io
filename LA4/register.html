@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Registration
+	</title>
+	<style>
+		body{
+			background-image: url(back1.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+	</style>
+</head>
+<body>
+	<h1 style="text-align: center;">Register Here...</h1>
+	<h3 style="text-align: center;">Fill your details here...</h3>
+	<form autocomplete="on" align="center">
+		<table class="tab">
+			<tr>
+			<td><label for="name">Enter Name:</label></td>
+			<td><input type="text" id="name" name="name" size="30" placeholder="Name"><br></td>
+			</tr>
+			<tr>
+			<td><label for="user">Enter Username:</label></td>
+			<td><input type="text" id="user" name="user" size="30" placeholder="Username"><br></td>
+			</tr>
+			<tr>
+			<td><label for="pass">Enter password:</label></td>
+			<td><input type="password" id="pass" name="pass" size="30" placeholder="password"><br></td>
+			</tr>
+			<tr>
+			<td><label for="mno">Enter Contact No:</label></td>
+			<td><input type="text" id="mno" name="mno" size="30" placeholder="Contact Number"><br></td>
+			</tr>
+			<tr>
+			<td><label for="mail">Enter Email-ID:</label></td>
+			<td><input type="email" id="mail" name="mail" size="30" placeholder="email"><br></td>
+			</tr>
+			<tr>
+			<td><label for="gender">Gender:</label></td>
+			<td>
+				<input type="radio" id="male" name="gender" value="male">
+  				<label for="male">Male</label>
+  				<input type="radio" id="female" name="gender" value="female">
+  				<label for="female">Female</label>
+  				<input type="radio" id="other" name="gender" value="other">
+  				<label for="other">Other</label>
+			</td>
+			</tr>
+			<tr>
+			<td><label for="id">Attach ID-proof:</label></td>
+			<td><input type="file" id="id" name="id" size="30"><br></td>
+			</tr>
+		</table>	
+	</form>
+	
+	<p style="text-align: center;">
+		<button type="submit" name="Register"  onclick="alert('User Registered Successfully...')">Register</button><br>
+		Already Registered?? <br>
+		<button type="button" onclick="window.location.href='login.html'">Login Here</button><br>
+		Return to Home<br>
+		<button type="button" onclick="window.location.href='index.html'">Login Here</button><br>
+	</p>
+</body>
+</html>
